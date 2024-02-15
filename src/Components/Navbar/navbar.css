@@ -1,12 +1,25 @@
 .Container_Navbar{
-  height: 4.3vh;
-  background-image: url('../../../public/Img/BackGroundNavbar.jpg');
-  background-size: cover; /* Faz a imagem de fundo cobrir toda a div */
-  background-position:center; /* Centraliza a imagem de fundo */
-  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  width: 100vw;
+  top: auto;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo semi-transparente */
+  backdrop-filter: blur(10px); /* Efeito de vidro */
+  z-index: 2;
 }
 
-.Navbar_Button{
+.Widgets_Container {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 10px;
   height: 100%;
+  align-items: center;
 }
 
+.Widgets_Container > button {
+  margin: 0px 10px;
+}

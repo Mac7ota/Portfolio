@@ -1,0 +1,15 @@
+.Btn_Start {
+  margin: 0px 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  }
+
+.Btn_Start > img {
+  width: 45px;
+  height: 45px;
+}
+  
