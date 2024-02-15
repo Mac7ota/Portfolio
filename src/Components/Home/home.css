@@ -1,0 +1,8 @@
+.Container {
+    background-image: url('../../../public/Img/background.jpg');
+    background-size: cover; /* Faz a imagem de fundo cobrir toda a div */
+    background-position: center; /* Centraliza a imagem de fundo */
+    width: 100vw; /* Ajuste para compensar as margens */
+    height: calc(95.7vh);
+    background-color: #fff;
+}

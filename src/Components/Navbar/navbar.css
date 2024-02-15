@@ -1,0 +1,12 @@
+.Container_Navbar{
+  height: 4.3vh;
+  background-image: url('../../../public/Img/BackGroundNavbar.jpg');
+  background-size: cover; /* Faz a imagem de fundo cobrir toda a div */
+  background-position:center; /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat;
+}
+
+.Navbar_Button{
+  height: 100%;
+}
+
